@@ -49,6 +49,17 @@
   width:100%;
   margin:0;
   padding:0;
+  position:relative;
+}.hero-banner-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#ffffff;
+    font-size:clamp(24px,4vw,56px);
+    font-weight:700;
+    text-align:center;
+    white-space:nowrap;
 }
 
 .hero-banner img{
@@ -217,7 +228,11 @@
 <main id="top">
   
   <section class="hero-banner">
-  <img src="Gabi_banner_1920x350_cisty.png" alt="Gabi Creative banner">
+    <img src="Gabi_banner_1920x350.png" alt="Gabi Creative banner">
+
+    <div class="hero-banner-text">
+        Priestor pre váš príbeh.
+    </div>
 </section>
 
   <section id="services">
